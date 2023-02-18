@@ -1,0 +1,24 @@
+@import "reset.scss";
+@import "functions.scss";
+
+table {
+    border:bordertable();
+    border-spacing: 0;
+    width:sizetable();
+    height:sizetable();
+    margin:auto;
+    tr{
+        .b{
+            background: rgb(18, 186, 253);
+        }
+        .r{
+            background: rgb(255, 0, 0);
+        }
+        .j{
+            background: rgb(255, 196, 0);
+        }
+        .m{
+            background: rgb(113, 43, 0);
+        }
+    }
+}
